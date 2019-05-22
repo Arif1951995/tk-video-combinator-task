@@ -1,0 +1,31 @@
+body {
+    background-color:#202020;
+}
+article {
+    background-color: black;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    height: 100vh;
+    
+    margin: 20px auto;
+}
+
+div.icon {
+    color: #F9FF00;
+    font-size: 5em;
+    margin: 0 10px;
+}
+span {
+    color: #202020;
+    font-size: 4em;
+}
+span:hover {
+    color: rgb(197, 21, 51);
+}
+span:hover ~ span {
+    color: white;
+} 
+span:hover + span {
+    color: pink;
+}
