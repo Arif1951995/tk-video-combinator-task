@@ -8,7 +8,8 @@ article {
     justify-content: center;
     height: 100vh;
     
-    margin: 20px auto;
+    margin:  auto;
+    padding: 30px;
 }
 
 div.icon {
@@ -19,6 +20,7 @@ div.icon {
 span {
     color: #202020;
     font-size: 4em;
+    height: 10vh;
 }
 span:hover {
     color: rgb(197, 21, 51);
